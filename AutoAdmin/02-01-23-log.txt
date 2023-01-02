@@ -1,0 +1,12 @@
+<14>Jan  2 22:15:07 /root/AutoAdmin/Backup.sh[2557]: Starting..
+<14>Jan  2 22:15:07 /root/AutoAdmin/Uptime.sh[2579]: Starting..
+<14>Jan  2 22:15:07 /root/AutoAdmin/Wakeup.sh[2581]: AutoAdmin in awake
+<14>Jan  2 22:15:09 /root/AutoAdmin/Monitoring_resource.sh[3092]: Alert was sent to orwallla@gmail.com, the resource status right now are CPU=16.5%,MEM=83%
+<14>Jan  2 22:15:17 /root/AutoAdmin/Update_auto.sh[3222]: The system was fully updated at unix time=1672690507
+<14>Jan  2 22:25:17 /root/AutoAdmin/Monitoring_resource.sh[4462]: Alert was sent to orwallla@gmail.com, the resource status right now are CPU=16.5%,MEM=83%
+<14>Jan  2 22:31:25 /root/AutoAdmin/Backup.sh[4502]: /home backup failed.
+<14>Jan  2 22:31:25 /root/AutoAdmin/Backup.sh[4504]: No transfer configuration available, /home not trasfered
+<14>Jan  2 22:31:26 /root/AutoAdmin/Backup.sh[4510]: /etc backup succeeded.
+<14>Jan  2 22:31:26 /root/AutoAdmin/Backup.sh[4512]: No transfer configuration available, /etc not trasfered
+<14>Jan  2 22:31:28 /root/AutoAdmin/Backup.sh[4520]: Tried to backup, up to date backup is available
+<14>Jan  2 22:35:24 /root/AutoAdmin/Monitoring_resource.sh[4575]: Alert was sent to orwallla@gmail.com, the resource status right now are CPU=16.5%,MEM=83%
