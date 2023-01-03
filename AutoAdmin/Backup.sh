@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash ## use #!/usr/bin/env bash instead
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/$(date +%d-%m-%y)-log.txt
 
 #Check for backup directory
@@ -6,14 +6,14 @@ checkfordir () {
     (ls /tmp | grep backups) >/dev/null
     if [ $? -eq 1 ]
     then
-   	 mkdir /tmp/backups
+   	 mkdir /tmp/backups ## Just use mkdir -p instead of this check/function
     fi
 }
 #Core
 backup () {
     for i in "${backup_directories[@]}"
     do
-   	 sudo tar -zcvf /tmp/backups/$i-$Date.tar.gz /$i > /dev/null 2>&1
+   	 sudo tar -zcvf /tmp/backups/$i-$Date.tar.gz /$i > /dev/null 2>&1 # Remove -v, no need for verbosity
    	 if [ $? -eq 0 ]
    	 then
    		 logger -s -i -t $0 -p user.info "/$i backup succeeded." &>> /root/AutoAdmin/$(date +%d-%m-%y)-log.txt
@@ -26,7 +26,7 @@ backup () {
    	 then
    		 logger -s -i -t $0 -p user.info "No transfer configuration available, /$i not trasfered" &>> /root/AutoAdmin/$(date +%d-%m-%y)-log.txt
    	 else
-   		 scp /tmp/$i-$backup_date.tar.gz $dest_server:$dest_dir
+   		 scp /tmp/$i-$backup_date.tar.gz $dest_server:$dest_dir ## Use rsync -a instead of scp, for both cases keys should be exchanged for no-password login
    		 if [ $? -eq 0 ]; then
    			 logger -s -i -t $0 -p user.info "$i transfer succeeded." &>> /root/AutoAdmin/$(date +%d-%m-%y)-log.txt
    		 else
