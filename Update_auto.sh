@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
+logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
 while true
 do
@@ -13,11 +13,11 @@ do
 		apt update && apt full-upgrade -y
 		if [ $? -eq 0 ]
 		then
-			(echo "Subject: System_Update_Alert"; echo "The system was fully updated at unix time=$sysDate") | ssmtp orwallla@gmail.com
-			logger -s -i -t $0 -p user.info "The system was fully updated at unix time=$sysDate" &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
+			(echo "Subject: System_Update_Alert"; echo "The system was fully updated at $(date)") | ssmtp orwallla@gmail.com
+			logger -s -i -t $0 -p user.info "The system was fully updated at $(date)" &>> /root/AutoAdmin/log/AutoAdmin.log
 		else
-			(echo "Subject: System_Update_Alert"; echo "The system was failed to update at unix time=$sysDate") | ssmtp orwallla@gmail.com
-			logger -s -i -t $0 -p user.info "The system was failed to update at unix time=$sysDate" &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
+			(echo "Subject: System_Update_Alert"; echo "The system was failed to update at $(date)") | ssmtp orwallla@gmail.com
+			logger -s -i -t $0 -p user.info "The system was failed to update at $(date)" &>> /root/AutoAdmin/log/AutoAdmin.log
 		fi
 	fi
 

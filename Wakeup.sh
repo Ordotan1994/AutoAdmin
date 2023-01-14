@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-logger -s -i -t $0 -p user.info "AutoAdmin in awake" &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
+logger -s -i -t $0 -p user.info "AutoAdmin in awake" &>> /root/AutoAdmin/log/AutoAdmin.log
 
 #System Parameters
 Date=$(date +%d-%m-%y)
