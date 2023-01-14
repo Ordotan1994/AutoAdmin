@@ -1,0 +1,6 @@
+<14>Jan 14 10:34:42 /root/AutoAdmin/Update_auto.sh[3069106]: The system was fully updated at unix time=1673685088
+<14>Jan 14 11:24:34 /root/AutoAdmin/Backup.sh[3073516]: /home backup failed.
+<14>Jan 14 11:24:34 /root/AutoAdmin/Backup.sh[3073518]: No transfer configuration available, /home not trasfered
+<14>Jan 14 11:24:34 /root/AutoAdmin/Backup.sh[3073524]: /etc backup succeeded.
+<14>Jan 14 11:24:34 /root/AutoAdmin/Backup.sh[3073526]: No transfer configuration available, /etc not trasfered
+<14>Jan 14 11:24:37 /root/AutoAdmin/Backup.sh[3073534]: Tried to backup, up to date backup is available

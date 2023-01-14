@@ -1,0 +1,134 @@
+Syslog : Jan 12 07:02:43 Ubuntu2T apt-helper[1145593]: E: Sub-process nm-online returned an error code (1)
+Syslog : Jan 12 07:02:43 Ubuntu2T gsd-color[1732]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/cups_CUPS_BRF_Printer
+Syslog : Jan 12 07:02:49 Ubuntu2T wpa_supplicant[913]: bgscan simple: Failed to enable signal strength monitoring
+Syslog : Jan 12 08:25:19 Ubuntu2T /root/AutoAdmin/Backup.sh[1152160]: /home backup failed.
+Syslog : Jan 12 08:29:30 Ubuntu2T gnome-shell[1625]: Ignored exception from dbus method: Gio.IOErrorEnum: GDBus.Error:org.gtk.GDBus.UnmappedGError.Quark._g_2dio_2derror_2dquark.Code19: Operation was cancelled
+Syslog : Jan 12 08:29:44 Ubuntu2T evolution-addre[1682]: Error setting property 'ConnectionStatus' on interface org.gnome.evolution.dataserver.Source: The connection is closed (g-io-error-quark, 18)
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5629]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5772]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5705]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5625]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5698]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5426]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5585]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5701]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5473]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5408]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5276]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5353]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[1151904]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5273]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5523]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5221]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5178]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[645089]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5041]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[18831]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5116]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5555]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[645018]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[8634]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[893997]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[2315]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[2305]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[1151812]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[40564]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[2196]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[5350]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[1151843]: Exiting due to channel error.
+Syslog : Jan 12 08:29:44 Ubuntu2T firefox.desktop[2147]: Exiting due to channel error.
+Syslog : Jan 12 08:30:53 Ubuntu2T systemd[1152621]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed to locate executable /usr/bin/snap: No such file or directory
+Syslog : Jan 12 08:30:53 Ubuntu2T systemd[1152621]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed at step EXEC spawning /usr/bin/snap: No such file or directory
+Syslog : Jan 12 08:30:53 Ubuntu2T systemd[1152611]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Syslog : Jan 12 08:30:53 Ubuntu2T /usr/libexec/gdm-x-session[1152625]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Syslog : Jan 12 08:30:54 Ubuntu2T gnome-session[1152719]: gnome-session-binary[1152719]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Syslog : Jan 12 08:30:54 Ubuntu2T gnome-session-binary[1152719]: GLib-GIO-CRITICAL: g_bus_get_sync: assertion 'error == NULL || *error == NULL' failed
+Syslog : Jan 12 08:30:55 Ubuntu2T org.gnome.Shell.desktop[1152734]: Window manager warning: Failed to parse saved session file: Failed to open file “/var/lib/gdm3/.config/mutter/sessions/10fd54df6a8540fc8f167350505451602700011527190000.ms”: No such file or directory
+Syslog : Jan 12 08:30:55 Ubuntu2T /usr/libexec/gdm-x-session[1152718]: dbus-daemon[1152718]: [session uid=125 pid=1152718] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Syslog : Jan 12 08:30:55 Ubuntu2T gsd-sharing[1152778]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Syslog : Jan 12 08:30:55 Ubuntu2T gsd-media-keys[1152797]: Failed to grab accelerator for keybinding settings:rotate-video-lock
+Syslog : Jan 12 08:30:55 Ubuntu2T gsd-media-keys[1152797]: Failed to grab accelerator for keybinding settings:hibernate
+Syslog : Jan 12 08:30:55 Ubuntu2T gsd-media-keys[1152797]: Failed to grab accelerator for keybinding settings:playback-random
+Syslog : Jan 12 08:30:55 Ubuntu2T gsd-media-keys[1152797]: Failed to grab accelerator for keybinding settings:playback-repeat
+Syslog : Jan 12 08:30:56 Ubuntu2T gnome-shell[1152734]: JS ERROR: Failed to initialize fprintd service: Gio.IOErrorEnum: GDBus.Error:net.reactivated.Fprint.Error.NoSuchDevice: No devices available#012asyncCallback@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:114:23
+Syslog : Jan 12 08:31:14 Ubuntu2T systemd[1153009]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed to locate executable /usr/bin/snap: No such file or directory
+Syslog : Jan 12 08:31:14 Ubuntu2T systemd[1153009]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed at step EXEC spawning /usr/bin/snap: No such file or directory
+Syslog : Jan 12 08:31:14 Ubuntu2T systemd[1152999]: snap.snapd-desktop-integration.snapd-desktop-integration.service: Failed with result 'exit-code'.
+Syslog : Jan 12 08:31:18 Ubuntu2T pulseaudio[1153008]: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms)
+Syslog : Jan 12 08:31:48 Ubuntu2T /usr/libexec/gdm-x-session[1153108]: _XSERVTransSocketUNIXCreateListener: ...SocketCreateListener() failed
+Syslog : Jan 12 08:31:48 Ubuntu2T /usr/libexec/gdm-x-session[1153108]: #011(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dpkcs11-1153239.scope: Failed to add PIDs to scope's control group: No such process
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dpkcs11-1153239.scope: Failed with result 'resources'.
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: Failed to start Application launched by gnome-session-binary.
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dsecrets-1153241.scope: Failed to add PIDs to scope's control group: No such process
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dsecrets-1153241.scope: Failed with result 'resources'.
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dssh-1153242.scope: Failed to add PIDs to scope's control group: No such process
+Syslog : Jan 12 08:31:49 Ubuntu2T systemd[1152999]: app-gnome-gnomex2dkeyringx2dssh-1153242.scope: Failed with result 'resources'.
+Syslog : Jan 12 08:31:49 Ubuntu2T gnome-session[1153232]: gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153246 does not exist.
+Syslog : Jan 12 08:31:49 Ubuntu2T gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153246 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session[1153232]: gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153399: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153399 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153399: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153399 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session[1153232]: gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153404: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153404 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153404: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153404 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session[1153232]: gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153414: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153414 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gnome-session-binary[1153232]: GnomeDesktop-WARNING: Could not create transient scope for PID 1153414: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Process with ID 1153414 does not exist.
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-color[1152784]: failed to set xrandr-Dell Inc.-DELL P2722H-BSPPDH3 color transform matrix: failed to load file: Error opening file /home/or/.local/share/icc/edid-81bd39e7f462ab26e0406bce88e4de9a.icc: Permission denied
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-color[1152784]: failed to set xrandr-Dell Inc.-DELL P2722H-9SPPDH3 color transform matrix: failed to load file: Error opening file /home/or/.local/share/icc/edid-3e69869e400d5d71e4fe892693f7e525.icc: Permission denied
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-media-keys[1153360]: Failed to grab accelerator for keybinding settings:rotate-video-lock
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-media-keys[1153360]: Failed to grab accelerator for keybinding settings:hibernate
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-media-keys[1153360]: Failed to grab accelerator for keybinding settings:playback-random
+Syslog : Jan 12 08:31:50 Ubuntu2T gsd-media-keys[1153360]: Failed to grab accelerator for keybinding settings:playback-repeat
+Syslog : Jan 12 08:31:51 Ubuntu2T gsd-color[1152784]: failed to set xrandr-Dell Inc.-DELL P2722H-9SPPDH3 color transform matrix: failed to load file: Error opening file /home/or/.local/share/icc/edid-3e69869e400d5d71e4fe892693f7e525.icc: Permission denied
+Syslog : Jan 12 08:31:51 Ubuntu2T gsd-color[1152784]: failed to set xrandr-Dell Inc.-DELL P2722H-BSPPDH3 color transform matrix: failed to load file: Error opening file /home/or/.local/share/icc/edid-81bd39e7f462ab26e0406bce88e4de9a.icc: Permission denied
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-housekeepin[1152814]: Error releasing name org.gnome.SettingsDaemon.Housekeeping: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T [1152791]: Error releasing name org.gnome.SettingsDaemon.Rfkill: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T [1152792]: Error releasing name org.gnome.SettingsDaemon.Smartcard: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-screensaver[1152806]: Error releasing name org.freedesktop.ScreenSaver: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-sound[1152808]: Error releasing name org.gnome.SettingsDaemon.Sound: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-datetime[1152794]: Error releasing name org.gnome.SettingsDaemon.Datetime: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T [1152810]: Error releasing name org.gnome.SettingsDaemon.A11ySettings: The connection is closed
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-color[1153354]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_Dell_Inc__DELL_P2722H_9SPPDH3_gdm_125
+Syslog : Jan 12 08:31:52 Ubuntu2T gsd-color[1153354]: failed to connect to device: Failed to connect to missing device /org/freedesktop/ColorManager/devices/xrandr_Dell_Inc__DELL_P2722H_BSPPDH3_gdm_125
+Syslog : Jan 12 08:31:52 Ubuntu2T gdm-launch-environment]: GLib-GObject: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Syslog : Jan 12 08:31:56 Ubuntu2T gsd-color[1153354]: Failed to connect to GeoClue2 service: GDBus.Error:org.freedesktop.DBus.Error.AccessDenied: 'gnome-color-panel' disallowed, no agent for UID 1000
+Syslog : Jan 12 08:33:09 Ubuntu2T firefox.desktop[1153815]: [GFX1-]: glxtest: VA-API test failed: failed to initialise VAAPI connection.
+Syslog : Jan 12 09:49:48 Ubuntu2T systemd[1]: Starting GRUB failed boot detection...
+Syslog : Jan 12 09:49:48 Ubuntu2T systemd[1]: Finished GRUB failed boot detection.
+Syslog : Jan 12 10:28:01 Ubuntu2T wpa_supplicant[913]: bgscan simple: Failed to enable signal strength monitoring
+Syslog : Jan 12 12:36:21 Ubuntu2T firefox.desktop[1153815]: [GFX1-]: Failed to make render context current during destroying.
+Syslog : Jan 12 12:47:43 Ubuntu2T firefox.desktop[1166026]: [2023-01-12T10:47:43Z ERROR mp4parse] Found 2 nul bytes in "00"
+Syslog : Jan 12 12:47:43 Ubuntu2T firefox.desktop[1166026]: message repeated 3 times: [ [2023-01-12T10:47:43Z ERROR mp4parse] Found 2 nul bytes in "00"]
+Syslog : Jan 12 12:49:49 Ubuntu2T firefox.desktop[1166549]: [2023-01-12T10:49:49Z ERROR mp4parse] Found 2 nul bytes in "00"
+Syslog : Jan 12 12:49:49 Ubuntu2T firefox.desktop[1166549]: message repeated 3 times: [ [2023-01-12T10:49:49Z ERROR mp4parse] Found 2 nul bytes in "00"]
+Syslog : Jan 12 12:54:57 Ubuntu2T firefox.desktop[1167038]: [2023-01-12T10:54:57Z ERROR mp4parse] Found 2 nul bytes in "00"
+Syslog : Jan 12 12:54:57 Ubuntu2T firefox.desktop[1167038]: message repeated 3 times: [ [2023-01-12T10:54:57Z ERROR mp4parse] Found 2 nul bytes in "00"]
+Syslog : Jan 12 13:14:34 Ubuntu2T firefox.desktop[1167748]: [2023-01-12T11:14:34Z ERROR mp4parse] Found 2 nul bytes in "00"
+Syslog : Jan 12 13:14:34 Ubuntu2T firefox.desktop[1167748]: message repeated 3 times: [ [2023-01-12T11:14:34Z ERROR mp4parse] Found 2 nul bytes in "00"]
+Syslog : Jan 12 14:30:42 Ubuntu2T systemd[1]: Starting GRUB failed boot detection...
+Syslog : Jan 12 14:30:42 Ubuntu2T systemd[1]: Finished GRUB failed boot detection.
+Syslog : Jan 12 14:35:48 Ubuntu2T firefox.desktop[1153815]: [GFX1-]: Failed to make render context current during destroying.
+Syslog : Jan 12 14:35:52 Ubuntu2T wpa_supplicant[913]: bgscan simple: Failed to enable signal strength monitoring
+Syslog : Jan 12 16:00:44 Ubuntu2T gnome-shell[1153251]: clutter_actor_set_allocation_internal: assertion '!isnan (box->x1) && !isnan (box->x2) && !isnan (box->y1) && !isnan (box->y2)' failed
+Syslog : Jan 12 16:00:53 Ubuntu2T gnome-shell[1153251]: JS ERROR: TypeError: this.actor is null#012_syncEnabled@resource:///org/gnome/shell/ui/windowManager.js:138:25#012onStopped@resource:///org/gnome/shell/ui/windowManager.js:150:35#012_makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:151:22#012_easeActorProperty/<@resource:///org/gnome/shell/ui/environment.js:317:60#012_destroyWindowDone@resource:///org/gnome/shell/ui/windowManager.js:1596:21#012onStopped@resource:///org/gnome/shell/ui/windowManager.js:1564:39#012_makeEaseCallback/<@resource:///org/gnome/shell/ui/environment.js:151:22#012_easeActor/<@resource:///org/gnome/shell/ui/environment.js:240:64
+Auth : Jan 12 08:04:49 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=or rhost=  user=root
+Auth : Jan 12 08:05:06 Ubuntu2T sudo: pam_unix(sudo-i:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=or rhost=  user=or
+Auth : Jan 12 08:05:27 Ubuntu2T sudo:       or : 1 incorrect password attempt ; TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash
+Auth : Jan 12 08:29:44 Ubuntu2T polkitd(authority=local): Unregistered Authentication Agent for unix-session:3 (system bus name :1.112, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL) (disconnected from bus)
+Auth : Jan 12 08:30:52 Ubuntu2T systemd-logind[908]: Removed session 3.
+Auth : Jan 12 08:30:55 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:c2 (system bus name :1.334 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 12 08:31:00 Ubuntu2T gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=or
+Auth : Jan 12 08:31:04 Ubuntu2T gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=or
+Auth : Jan 12 08:31:06 Ubuntu2T gdm-password]: pam_unix(gdm-password:auth): authentication failure; logname= uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=or
+Auth : Jan 12 08:31:50 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:118 (system bus name :1.371 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 12 08:31:52 Ubuntu2T polkitd(authority=local): Unregistered Authentication Agent for unix-session:c2 (system bus name :1.334, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL) (disconnected from bus)
+Auth : Jan 12 08:31:52 Ubuntu2T systemd-logind[908]: Removed session c2.
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842950]: delete user 'msmtp'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842950]: removed group 'msmtp' owned by 'msmtp'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842950]: removed shadow group 'msmtp' owned by 'msmtp'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842982]: delete user 'smmta'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842982]: removed group 'smmta' owned by 'smmta'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842982]: removed shadow group 'smmta' owned by 'smmta'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842992]: delete user 'smmsp'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842992]: removed group 'smmsp' owned by 'smmsp'
+Auth : Jan 12 15:41:37 Ubuntu2T userdel[1842992]: removed shadow group 'smmsp' owned by 'smmsp'
+Auth : Jan 12 16:03:17 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=or rhost=  user=root

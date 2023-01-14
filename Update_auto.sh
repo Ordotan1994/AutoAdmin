@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-logger -i -t $0 -p user.info "Starting.."
+logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
 
 while true
 do

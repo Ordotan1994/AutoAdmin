@@ -1,0 +1,28 @@
+<14>Jan 12 07:50:10 /root/AutoAdmin/Update_auto.sh[1149554]: The system was fully updated at unix time=1673502598
+<14>Jan 12 08:25:19 /root/AutoAdmin/Backup.sh[1152160]: /home backup failed.
+<14>Jan 12 08:25:19 /root/AutoAdmin/Backup.sh[1152162]: No transfer configuration available, /home not trasfered
+<14>Jan 12 08:25:19 /root/AutoAdmin/Backup.sh[1152168]: /etc backup succeeded.
+<14>Jan 12 08:25:19 /root/AutoAdmin/Backup.sh[1152170]: No transfer configuration available, /etc not trasfered
+<14>Jan 12 08:25:22 /root/AutoAdmin/Backup.sh[1152182]: Tried to backup, up to date backup is available
+<14>Jan 12 11:27:19 /root/AutoAdmin/Update_auto.sh[1162293]: The system was fully updated at unix time=1673515629
+<14>Jan 12 12:02:20 /root/AutoAdmin/Backup.sh[1164119]: Tried to backup, up to date backup is available
+<14>Jan 12 14:27:29 /root/AutoAdmin/Update_auto.sh[1174572]: The system was fully updated at unix time=1673526439
+<14>Jan 12 15:06:14 /root/AutoAdmin/Backup.sh[1176832]: Tried to backup, up to date backup is available
+<14>Jan 12 15:26:29 ./Analitics.sh[1177975]: Starting..
+<14>Jan 12 15:27:07 ./Analitics.sh[1178014]: Starting..
+<14>Jan 12 15:27:24 ./Analitics.sh[1178037]: Starting..
+<14>Jan 12 15:27:24 ./Analitics.sh[1178040]: Starting The Collection
+<14>Jan 12 15:30:11 ./Analitics.sh[1510000]: Collection ended
+<14>Jan 12 15:33:48 ./Analitics.sh[1510201]: Starting..
+<14>Jan 12 15:33:48 ./Analitics.sh[1510204]: Starting The Collection
+<14>Jan 12 15:36:38 ./Analitics.sh[1842207]: Collection ended
+<14>Jan 12 15:46:38 ./Analitics.sh[1843581]: Starting The Collection
+<14>Jan 12 15:48:45 ./Analitics.sh[2036107]: Starting..
+<14>Jan 12 15:48:45 ./Analitics.sh[2036110]: Starting The Collection
+<14>Jan 12 15:51:38 ./Analitics.sh[2369148]: Collection ended
+<14>Jan 12 15:59:46 ./Analitics.sh[2369797]: Starting..
+<14>Jan 12 15:59:46 ./Analitics.sh[2369800]: Starting The Collection
+<14>Jan 12 16:02:35 ./Analitics.sh[2702782]: Collection ended
+<14>Jan 12 16:07:51 ./Analitics.sh[2703100]: Starting..
+<14>Jan 12 16:07:51 ./Analitics.sh[2703103]: Starting The Collection
+<14>Jan 12 16:10:44 ./Analitics.sh[3045970]: Collection ended

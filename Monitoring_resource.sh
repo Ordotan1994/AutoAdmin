@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-logger -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
+logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/$(date +%d-%m-%y)-log.txt
 #System Parametars
 cpuUsage=$(top -bn1 | awk '/Cpu/ {print $2}' | bc)
 availDisk=$(df -h | awk '/dev/ {print $5}')
