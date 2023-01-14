@@ -27,6 +27,7 @@ function Rotate()
 		echo -e "Subject: System Logging" | (cat - && uuencode /root/AutoAdmin/log/$1.log $1.log) | ssmtp $Mail
 		mv /root/AutoAdmin/log/$1.log.1 /root/AutoAdmin/log/$1.log.2 && mv /root/AutoAdmin/log/$1.log /root/AutoAdmin/log/$1.log.1
 		rm /root/AutoAdmin/log/$1.log && touch /root/AutoAdmin/log/$1.log
+	return 100
 	fi
 }
 
@@ -34,13 +35,16 @@ function Rotate()
 
 while true
 do
-	logger -s -i -t $0 -p user.info "Starting The Collection" &>> /root/AutoAdmin/log/AutoAdmin.log
+	logger -s -i -t $0 -p user.info "Checking for dependencies" &>> /root/AutoAdmin/log/AutoAdmin.log
 	Dependencies
-	logger -s -i -t $0 -p user.info "Starting The Collection" &>> /root/AutoAdmin/log/AutoAdmin.log
+	logger -s -i -t $0 -p user.info "Checking for rotation" &>> /root/AutoAdmin/log/AutoAdmin.log
 	Rotate "Analytics"
 	Rotate "Security"
 	Rotate "AutoAdmin"
-	logger -s -i -t $0 -p user.info "Starting The Collection" &>> /root/AutoAdmin/log/AutoAdmin.log
+	if [ $? -eq 100 ]
+	then
+		logger -s -i -t $0 -p user.info "Rotate done." &>> /root/AutoAdmin/log/AutoAdmin.log
+	fi
 
-	sleep 3600
+	sleep 3900
 done
