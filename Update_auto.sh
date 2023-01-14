@@ -13,10 +13,10 @@ do
 		apt update && apt full-upgrade -y
 		if [ $? -eq 0 ]
 		then
-			(echo "Subject: System_Update_Alert"; echo "The system was fully updated at $(date)") | ssmtp orwallla@gmail.com
+			(echo -e "Subject: System_Update_Alert\n\n"; echo -e "The system was fully updated at $(date)") | ssmtp orwallla@gmail.com
 			logger -s -i -t $0 -p user.info "The system was fully updated at $(date)" &>> /root/AutoAdmin/log/AutoAdmin.log
 		else
-			(echo "Subject: System_Update_Alert"; echo "The system was failed to update at $(date)") | ssmtp orwallla@gmail.com
+			(echo -e "Subject: System_Update_Alert/n/n"; echo -e "The system was failed to update at $(date)") | ssmtp orwallla@gmail.com
 			logger -s -i -t $0 -p user.info "The system was failed to update at $(date)" &>> /root/AutoAdmin/log/AutoAdmin.log
 		fi
 	fi

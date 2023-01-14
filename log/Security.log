@@ -1,0 +1,3 @@
+Auth : Jan 14 11:12:36 Ubuntu2T sudo: pam_unix(sudo:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/4 ruser=or rhost=  user=or
+Auth : Jan 14 11:40:36 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=or rhost=  user=root
+Auth : Jan 14 22:04:55 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.50 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
