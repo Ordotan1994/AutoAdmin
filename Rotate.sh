@@ -20,7 +20,7 @@ function Rotate()
 
 	Mail=orwallla@gmail.com
 	sysTime=$(date "+%s") #corrent system time
-	logBirth=$(stat --format='%W' /root/AutoAdmin/log/$1.log) # log creation time
+	logBirth=$(stat -c %W "/root/AutoAdmin/log/$1.log") # log creation time
 	rTime=$(($sysTime-$logBirth))
 	if [ $rTime -gt 86400 ]
 	then 

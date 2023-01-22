@@ -5,7 +5,7 @@ logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.l
 backup () {
     for i in "${backup_directories[@]}"
     do
-   	 sudo tar -zcf /tmp/backups/$i-$Date.tar.gz /$i > /dev/null 2>&1
+   	 sudo tar -zcf /tmp/backups/$i-$Date.tar.gz --exclude-from="./White4Bak.txt" /$i > /dev/null 2>&1
    	 if [ $? -eq 0 ]
    	 then
    		 logger -s -i -t $0 -p user.info "/$i backup succeeded." &>> /root/AutoAdmin/log/AutoAdmin.log
@@ -37,10 +37,13 @@ deleteoldbackup () {
 }
 
 
+#White-list file
+sorce ./
 
 #Timing System
 while true
 do
+
 #System Parameters
 backup_directories=("home" "etc")
 Date=$(date +%d-%m-%y)
@@ -48,8 +51,9 @@ remoteServer=""
 remoteDirectory=""
 userName=""
 Mail="orwallla@gmail.com"
-ls "/tmp/backups/${backup_directories[0]}-$Date.tar.gz" > /dev/null
+
 #Condition for running
+ls "/tmp/backups/${backup_directories[0]}-$Date.tar.gz" > /dev/null
 if [ $? -ne 0 ]
 then
     mkdir -p /tmp/backups

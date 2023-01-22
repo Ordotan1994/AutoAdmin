@@ -1,3 +1,0 @@
-<14>Jan 14 18:15:49 /root/AutoAdmin/Update_auto.sh[3085796]: The system was fully updated at unix time=1673712924
-<14>Jan 14 19:05:17 /root/AutoAdmin/Backup.sh[3089701]: Tried to backup, up to date backup is available
-<14>Jan 14 21:52:14 /root/AutoAdmin/Update_auto.sh[3100292]: The system was fully updated at unix time=1673725924

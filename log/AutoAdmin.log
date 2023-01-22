@@ -1,53 +1,82 @@
-<14>Jan 14 17:42:20 ./Rotate.sh[3080975]: Starting..
-<14>Jan 14 17:42:20 ./Rotate.sh[3080976]: Starting The Collection
-<14>Jan 14 17:42:20 ./Rotate.sh[3080986]: Starting The Collection
-<14>Jan 14 17:42:20 ./Rotate.sh[3080993]: Starting The Collection
-<14>Jan 14 22:09:40 /root/AutoAdmin/Analytics.sh[2417]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Analytics.sh[2418]: Starting The Collection
-<14>Jan 14 22:09:40 /root/AutoAdmin/Backup.sh[2430]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Monitoring_resource.sh[2436]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Rotate.sh[2447]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Update_auto.sh[2454]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Rotate.sh[2453]: Checking for dependencies
-<14>Jan 14 22:09:40 /root/AutoAdmin/Rotate.sh[2462]: Checking for rotation
-<14>Jan 14 22:09:40 /root/AutoAdmin/Uptime.sh[2461]: Starting..
-<14>Jan 14 22:09:40 /root/AutoAdmin/Wakeup.sh[2469]: AutoAdmin in awake
-<14>Jan 14 22:09:46 /root/AutoAdmin/Update_auto.sh[15596]: The system was fully updated at Sat 14 Jan 2023 22:09:46 IST
-<14>Jan 14 22:14:10 /root/AutoAdmin/Analytics.sh[555237]: Collection ended
-<14>Jan 14 22:18:15 ./Update_auto.sh[555498]: Starting..
-<14>Jan 14 22:18:22 ./Update_auto.sh[556117]: The system was fully updated at 22:18
-<14>Jan 14 22:19:38 ./Update_auto.sh[556190]: Starting..
-<14>Jan 14 22:19:44 ./Update_auto.sh[556810]: The system was fully updated at (22:19)
-<14>Jan 14 22:20:27 ./Update_auto.sh[556854]: Starting..
-<14>Jan 14 22:20:37 ./Update_auto.sh[557477]: The system was fully updated at 22:20
-<14>Jan 14 22:21:12 ./Update_auto.sh[557518]: Starting..
-<14>Jan 14 22:21:18 ./Update_auto.sh[558135]: The system was fully updated at 22:21
-<14>Jan 14 22:21:45 ./Update_auto.sh[558164]: Starting..
-<14>Jan 14 22:21:51 ./Update_auto.sh[558781]: The system was fully updated at 22:21
-<14>Jan 14 22:22:17 ./Update_auto.sh[558805]: Starting..
-<14>Jan 14 22:22:24 ./Update_auto.sh[559422]: The system was fully updated at 22:22
-<14>Jan 14 22:23:13 ./Update_auto.sh[559467]: Starting..
-<14>Jan 14 22:23:19 ./Update_auto.sh[560084]: The system was fully updated at 22:23
-<14>Jan 14 22:23:39 ./Update_auto.sh[560106]: Starting..
-<14>Jan 14 22:23:44 ./Update_auto.sh[560723]: The system was fully updated at 22:23
-<14>Jan 14 22:24:10 /root/AutoAdmin/Analytics.sh[560752]: Starting The Collection
-<14>Jan 14 22:24:58 ./Update_auto.sh[657643]: Starting..
-<14>Jan 14 22:25:04 ./Update_auto.sh[669786]: The system was fully updated at 22:24
-<14>Jan 14 22:28:19 ./Update_auto.sh[1066121]: Starting..
-<14>Jan 14 22:28:23 ./Update_auto.sh[1074588]: The system was fully updated at 22:28
-<14>Jan 14 22:28:43 /root/AutoAdmin/Analytics.sh[1115670]: Collection ended
-<14>Jan 14 22:28:57 /root/AutoAdmin/Backup.sh[1115690]: /home backup failed.
-<14>Jan 14 22:28:57 /root/AutoAdmin/Backup.sh[1115691]: No transfer configuration available, /home not trasfered
-<14>Jan 14 22:28:57 /root/AutoAdmin/Backup.sh[1115696]: /etc backup succeeded.
-<14>Jan 14 22:28:57 /root/AutoAdmin/Backup.sh[1115697]: No transfer configuration available, /etc not trasfered
-<14>Jan 14 22:29:00 /root/AutoAdmin/Backup.sh[1115704]: Tried to backup, up to date backup is available
-<14>Jan 14 22:32:14 ./Update_auto.sh[1116119]: Starting..
-<14>Jan 14 22:32:21 ./Update_auto.sh[1116740]: The system was fully updated at 22:32
-<14>Jan 14 22:34:33 ./Update_auto.sh[1117011]: Starting..
-<14>Jan 14 22:34:39 ./Update_auto.sh[1117628]: The system was fully updated at 22:34
-<14>Jan 14 22:35:19 ./Update_auto.sh[1117672]: Starting..
-<14>Jan 14 22:35:29 ./Update_auto.sh[1118361]: The system was fully updated at 22:35
-<14>Jan 14 22:36:59 ./Wakeup.sh[1118450]: AutoAdmin in awake
-<14>Jan 14 22:38:21 ./Update_auto.sh[1118529]: Starting..
-<14>Jan 14 22:38:27 ./Update_auto.sh[1119147]: The system was fully updated at Sat 14 Jan 2023 22:38:27 IST
-<14>Jan 14 22:38:43 /root/AutoAdmin/Analytics.sh[1119162]: Starting The Collection
+<14>Jan 22 09:30:25 /root/AutoAdmin/Rotate.sh[17007]: Rotate done.
+<14>Jan 22 09:30:26 /root/AutoAdmin/Analytics.sh[18858]: Collection ended
+<14>Jan 22 09:40:26 /root/AutoAdmin/Analytics.sh[19799]: Starting The Collection
+<14>Jan 22 09:40:35 /root/AutoAdmin/Analytics.sh[36640]: Collection ended
+<14>Jan 22 09:43:02 /root/AutoAdmin/Backup.sh[36847]: /home backup failed.
+<14>Jan 22 09:43:02 /root/AutoAdmin/Backup.sh[36848]: No transfer configuration available, /home not trasfered
+<14>Jan 22 09:43:07 /root/AutoAdmin/Backup.sh[36871]: /etc backup succeeded.
+<14>Jan 22 09:43:07 /root/AutoAdmin/Backup.sh[36872]: No transfer configuration available, /etc not trasfered
+<14>Jan 22 09:43:10 /root/AutoAdmin/Backup.sh[36886]: Tried to backup, up to date backup is available
+<14>Jan 22 09:50:35 /root/AutoAdmin/Analytics.sh[37304]: Starting The Collection
+<14>Jan 22 09:50:43 /root/AutoAdmin/Analytics.sh[54557]: Collection ended
+<14>Jan 22 10:00:43 /root/AutoAdmin/Analytics.sh[55105]: Starting The Collection
+<14>Jan 22 10:00:51 /root/AutoAdmin/Analytics.sh[72463]: Collection ended
+<14>Jan 22 10:10:51 /root/AutoAdmin/Analytics.sh[73010]: Starting The Collection
+<14>Jan 22 10:10:59 /root/AutoAdmin/Analytics.sh[90451]: Collection ended
+<14>Jan 22 10:20:59 /root/AutoAdmin/Analytics.sh[91000]: Starting The Collection
+<14>Jan 22 10:21:07 /root/AutoAdmin/Analytics.sh[108582]: Collection ended
+<14>Jan 22 10:31:07 /root/AutoAdmin/Analytics.sh[109141]: Starting The Collection
+<14>Jan 22 10:31:15 /root/AutoAdmin/Analytics.sh[126889]: Collection ended
+<14>Jan 22 10:35:25 /root/AutoAdmin/Rotate.sh[127123]: Checking for dependencies
+<14>Jan 22 10:35:25 /root/AutoAdmin/Rotate.sh[127125]: Checking for rotation
+<14>Jan 22 10:41:15 /root/AutoAdmin/Analytics.sh[127451]: Starting The Collection
+<14>Jan 22 10:41:23 /root/AutoAdmin/Analytics.sh[145378]: Collection ended
+<14>Jan 22 10:51:23 /root/AutoAdmin/Analytics.sh[145922]: Starting The Collection
+<14>Jan 22 10:51:31 /root/AutoAdmin/Analytics.sh[163979]: Collection ended
+<14>Jan 22 11:01:31 /root/AutoAdmin/Analytics.sh[164604]: Starting The Collection
+<14>Jan 22 11:01:40 /root/AutoAdmin/Analytics.sh[183042]: Collection ended
+<14>Jan 22 11:11:40 /root/AutoAdmin/Analytics.sh[183633]: Starting The Collection
+<14>Jan 22 11:11:49 /root/AutoAdmin/Analytics.sh[202250]: Collection ended
+<14>Jan 22 11:21:49 /root/AutoAdmin/Analytics.sh[202808]: Starting The Collection
+<14>Jan 22 11:21:57 /root/AutoAdmin/Analytics.sh[221701]: Collection ended
+<14>Jan 22 11:31:57 /root/AutoAdmin/Analytics.sh[222256]: Starting The Collection
+<14>Jan 22 11:32:06 /root/AutoAdmin/Analytics.sh[241539]: Collection ended
+<14>Jan 22 11:40:25 /root/AutoAdmin/Rotate.sh[241994]: Checking for dependencies
+<14>Jan 22 11:40:25 /root/AutoAdmin/Rotate.sh[241996]: Checking for rotation
+<14>Jan 22 11:42:06 /root/AutoAdmin/Analytics.sh[242094]: Starting The Collection
+<14>Jan 22 11:42:16 /root/AutoAdmin/Analytics.sh[261936]: Collection ended
+<14>Jan 22 11:52:16 /root/AutoAdmin/Analytics.sh[262488]: Starting The Collection
+<14>Jan 22 11:52:25 /root/AutoAdmin/Analytics.sh[282456]: Collection ended
+<14>Jan 22 12:02:25 /root/AutoAdmin/Analytics.sh[283003]: Starting The Collection
+<14>Jan 22 12:02:34 /root/AutoAdmin/Analytics.sh[303070]: Collection ended
+<14>Jan 22 12:12:34 /root/AutoAdmin/Analytics.sh[303617]: Starting The Collection
+<14>Jan 22 12:12:43 /root/AutoAdmin/Analytics.sh[323769]: Collection ended
+<14>Jan 22 12:22:43 /root/AutoAdmin/Analytics.sh[324328]: Starting The Collection
+<14>Jan 22 12:22:53 /root/AutoAdmin/Analytics.sh[344663]: Collection ended
+<14>Jan 22 12:32:53 /root/AutoAdmin/Analytics.sh[345201]: Starting The Collection
+<14>Jan 22 12:33:02 /root/AutoAdmin/Analytics.sh[365769]: Collection ended
+<14>Jan 22 12:43:02 /root/AutoAdmin/Analytics.sh[370313]: Starting The Collection
+<14>Jan 22 12:43:10 /root/AutoAdmin/Backup.sh[386275]: Tried to backup, up to date backup is available
+<14>Jan 22 12:43:12 /root/AutoAdmin/Analytics.sh[391390]: Collection ended
+<14>Jan 22 12:45:25 /root/AutoAdmin/Rotate.sh[392782]: Checking for dependencies
+<14>Jan 22 12:45:25 /root/AutoAdmin/Rotate.sh[392784]: Checking for rotation
+<14>Jan 22 17:22:46 /root/AutoAdmin/Analytics.sh[398558]: Starting The Collection
+<14>Jan 22 17:23:05 /root/AutoAdmin/Analytics.sh[440289]: Collection ended
+<14>Jan 22 17:33:05 /root/AutoAdmin/Analytics.sh[441130]: Starting The Collection
+<14>Jan 22 17:33:25 /root/AutoAdmin/Analytics.sh[483040]: Collection ended
+<14>Jan 22 17:43:25 /root/AutoAdmin/Analytics.sh[483826]: Starting The Collection
+<14>Jan 22 17:43:45 /root/AutoAdmin/Analytics.sh[526095]: Collection ended
+<14>Jan 22 18:27:24 /root/AutoAdmin/Analytics.sh[527770]: Starting The Collection
+<14>Jan 22 18:27:49 /root/AutoAdmin/Analytics.sh[581626]: Collection ended
+<14>Jan 22 18:37:49 /root/AutoAdmin/Analytics.sh[582334]: Starting The Collection
+<14>Jan 22 18:38:14 /root/AutoAdmin/Analytics.sh[636531]: Collection ended
+<14>Jan 22 18:48:14 /root/AutoAdmin/Analytics.sh[637397]: Starting The Collection
+<14>Jan 22 18:48:40 /root/AutoAdmin/Analytics.sh[692124]: Collection ended
+<14>Jan 22 18:53:37 /root/AutoAdmin/Rotate.sh[692574]: Checking for dependencies
+<14>Jan 22 18:53:37 /root/AutoAdmin/Rotate.sh[692576]: Checking for rotation
+<14>Jan 22 18:58:40 /root/AutoAdmin/Analytics.sh[692929]: Starting The Collection
+<14>Jan 22 18:59:05 /root/AutoAdmin/Analytics.sh[748056]: Collection ended
+<14>Jan 22 19:09:05 /root/AutoAdmin/Analytics.sh[748821]: Starting The Collection
+<14>Jan 22 19:09:31 /root/AutoAdmin/Analytics.sh[804330]: Collection ended
+<14>Jan 22 19:19:31 /root/AutoAdmin/Analytics.sh[805014]: Starting The Collection
+<14>Jan 22 19:19:57 /root/AutoAdmin/Analytics.sh[860734]: Collection ended
+<14>Jan 22 19:29:57 /root/AutoAdmin/Analytics.sh[861347]: Starting The Collection
+<14>Jan 22 19:30:23 /root/AutoAdmin/Analytics.sh[917355]: Collection ended
+<14>Jan 22 19:40:23 /root/AutoAdmin/Analytics.sh[918086]: Starting The Collection
+<14>Jan 22 19:40:49 /root/AutoAdmin/Analytics.sh[974397]: Collection ended
+<14>Jan 22 19:50:49 /root/AutoAdmin/Analytics.sh[975900]: Starting The Collection
+<14>Jan 22 19:51:16 /root/AutoAdmin/Analytics.sh[1032749]: Collection ended
+<14>Jan 22 19:58:37 /root/AutoAdmin/Rotate.sh[1033463]: Checking for dependencies
+<14>Jan 22 19:58:37 /root/AutoAdmin/Rotate.sh[1033465]: Checking for rotation
+<14>Jan 22 20:01:16 /root/AutoAdmin/Analytics.sh[1033707]: Starting The Collection
+<14>Jan 22 20:01:44 /root/AutoAdmin/Analytics.sh[1090888]: Collection ended
