@@ -2,6 +2,9 @@
 
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
+#Config file
+sorce ./Auconfig.conf
+
 #Core
 while true
 do

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
+#Config file
+sorce ./Auconfig.conf
+
 #Core
 backup () {
     for i in "${backup_directories[@]}"
@@ -37,20 +40,13 @@ deleteoldbackup () {
 }
 
 
-#White-list file
-sorce ./
 
 #Timing System
 while true
 do
 
 #System Parameters
-backup_directories=("home" "etc")
 Date=$(date +%d-%m-%y)
-remoteServer=""
-remoteDirectory=""
-userName=""
-Mail="orwallla@gmail.com"
 
 #Condition for running
 ls "/tmp/backups/${backup_directories[0]}-$Date.tar.gz" > /dev/null

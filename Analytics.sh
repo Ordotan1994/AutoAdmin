@@ -1,6 +1,8 @@
 #!/bin/bash
-#set -eux
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
+
+#Config file
+sorce ./Auconfig.conf
 
 #Core
 function getLogs()
@@ -18,12 +20,6 @@ function getLogs()
 }
 
 
-#System Parameters
-Keys4Syslog=("failed" "error")
-Keys4Syslog=("ssh" "ftp" "telnet")
-Keys4Auth=("authentication" "incorrect" "remove" "delete")
-Keys4Kern=("EMERG" "ALERT" "CRIT")
-Keys4Boot=("DEPEND" "failed")
 
 #Timing System
 while true

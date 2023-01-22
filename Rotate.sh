@@ -2,6 +2,9 @@
 
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
+#Config file
+sorce ./Auconfig.conf
+
 function Dependencies()
 {
 	mkdir -p /root/AutoAdmin/log
@@ -22,8 +25,8 @@ function Rotate()
 	sysTime=$(date "+%s") #corrent system time
 	logBirth=$(stat -c %W "/root/AutoAdmin/log/$1.log") # log creation time
 	rTime=$(($sysTime-$logBirth))
-	if [ $rTime -gt 86400 ]
-	then 
+	if [ $rTime -gt $rotateInterval ]
+	then
 		echo -e "Subject: System Logging" | (cat - && uuencode /root/AutoAdmin/log/$1.log $1.log) | ssmtp $Mail
 		mv /root/AutoAdmin/log/$1.log.1 /root/AutoAdmin/log/$1.log.2 && mv /root/AutoAdmin/log/$1.log /root/AutoAdmin/log/$1.log.1
 		rm /root/AutoAdmin/log/$1.log && touch /root/AutoAdmin/log/$1.log

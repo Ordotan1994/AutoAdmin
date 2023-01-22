@@ -80,3 +80,10 @@
 <14>Jan 22 19:58:37 /root/AutoAdmin/Rotate.sh[1033465]: Checking for rotation
 <14>Jan 22 20:01:16 /root/AutoAdmin/Analytics.sh[1033707]: Starting The Collection
 <14>Jan 22 20:01:44 /root/AutoAdmin/Analytics.sh[1090888]: Collection ended
+<14>Jan 22 20:11:44 /root/AutoAdmin/Analytics.sh[1091855]: Starting The Collection
+<14>Jan 22 20:12:11 /root/AutoAdmin/Analytics.sh[1149827]: Collection ended
+<14>Jan 22 20:22:11 /root/AutoAdmin/Analytics.sh[1150582]: Starting The Collection
+<14>Jan 22 20:22:38 /root/AutoAdmin/Analytics.sh[1208798]: Collection ended
+<14>Jan 22 20:32:38 /root/AutoAdmin/Analytics.sh[1209533]: Starting The Collection
+<14>Jan 22 20:33:05 /root/AutoAdmin/Analytics.sh[1268248]: Collection ended
+<14>Jan 22 20:33:43 /root/AutoAdmin/Update_auto.sh[1268981]: The system was fully updated at Sun 22 Jan 2023 20:33:43 IST

@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
+#Config file
+sorce ./Auconfig.conf
+
 while true
 do
 #System Parametars
@@ -8,7 +11,7 @@ do
 	sysDate="$(date +'%s')"
 	interval=$(($sysDate - $lastUpdate))
 #core
-	if [ $interval -lt 43200 ]
+	if [ $interval -lt $updateInterval ]
 	then
 		apt update && apt full-upgrade -y
 		if [ $? -eq 0 ]
