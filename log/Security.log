@@ -1,2 +1,6 @@
-Auth : Jan 22 09:25:33 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.50 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
-Auth : Jan 22 19:00:49 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/0 ruser=or rhost=  user=root
+Auth : Jan 23 07:02:15 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.49 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 23 08:42:07 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/1 ruser=or rhost=  user=root
+Auth : Jan 23 08:50:25 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.49 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 23 15:06:25 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.49 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 23 21:37:50 Ubuntu2T polkitd(authority=local): Registered Authentication Agent for unix-session:2 (system bus name :1.49 [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_IL)
+Auth : Jan 23 21:38:58 Ubuntu2T su: pam_unix(su:auth): authentication failure; logname= uid=1000 euid=0 tty=/dev/pts/3 ruser=or rhost=  user=root

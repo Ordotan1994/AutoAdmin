@@ -2,7 +2,7 @@
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
 #Config file
-sorce ./Auconfig.conf
+source ./Auconfig.conf
 
 #System Parametars
 cpuUsage=$(top -bn1 | awk '/Cpu/ {print $2}' | bc)
@@ -17,10 +17,11 @@ while true
 do
 	if [ "$(echo "$cpuUsage > $cpuPrecent" | bc)" -eq 1 ] || [ $freeMem -lt $memPrecent ]
 	then
-		(echo "Subject: System_Resource_Alert"; echo -e "CpuUsage=$cpuUsage%\nMemUsage=$memUsage%\nTime=$(date)\nFrom=$(hostname)") | ssmtp $Mail
-		logger -s -i -t $0 -p user.info "Alert was sent to $Mail, the resource status right now are CPU=$cpuUsage%,MEM=$memUsage%" &>> /root/AutoAdmin/log/AutoAdmin.log
+		(echo "Subject: System_Resource_Alert"; echo -e "CpuUsage=$cpuUsage%\nFreeMem=$freeMem%\nTime=$(date)\nFrom=$(hostname)") | ssmtp $Mail
+		logger -s -i -t $0 -p user.info "Alert was sent to $Mail, the resource status right now are CPU=$cpuUsage%,FreeMem=$freeMem%" &>> /root/AutoAdmin/log/AutoAdmin.log
 		sleep 60
 	fi
 
-	sleep 5
+	#sleep 5
+	sleep 500
 done

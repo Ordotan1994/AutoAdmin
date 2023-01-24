@@ -2,10 +2,10 @@
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
 #Config file
-sorce ./Auconfig.conf
+source ./Auconfig.conf
 
 #Core
-backup () {
+function backup() {
     for i in "${backup_directories[@]}"
     do
    	 sudo tar -zcf /tmp/backups/$i-$Date.tar.gz --exclude-from="./White4Bak.txt" /$i > /dev/null 2>&1
@@ -31,7 +31,7 @@ backup () {
     done
 }
 #Removing old backups
-deleteoldbackup () {
+function deleteoldbackup() {
     find /tmp/backups -type f ! -name "${backup_directories[0]}-$Date.tar.gz" ! -name "${backup_directories[1]}-$Date.tar.gz" -delete
     if [ $? -eq 1 ]
     then
@@ -49,16 +49,17 @@ do
 Date=$(date +%d-%m-%y)
 
 #Condition for running
-ls "/tmp/backups/${backup_directories[0]}-$Date.tar.gz" > /dev/null
-if [ $? -ne 0 ]
+ls "/tmp/backups/${backup_directories[0]}-$Date.tar.gz" &>> /dev/null
+if [ $? -eq 0 ]
 then
-    mkdir -p /tmp/backups
-    backup
-    deleteoldbackup
-    (echo "Subject: System_Backup_Alert"; echo "Backup was done at=$(date +%d-%m-%y)") | ssmtp $Mail
-else
-    logger -s -i -t $0 -p user.info "Tried to backup, up to date backup is available" &>> /root/AutoAdmin/log/AutoAdmin.log
-    sleep 10800
-fi
+	logger -s -i -t $0 -p user.info "Tried to backup, up to date backup is available" &>> /root/AutoAdmin/log/AutoAdmin.log
+	sleep 10800
 
+else
+	mkdir -p /tmp/backups
+	deleteoldbackup
+	backup
+	(echo "Subject: System_Backup_Alert"; echo "Backup was done at=$(date +%d-%m-%y)") | ssmtp $Mail
+	sleep 10800
+fi
 done

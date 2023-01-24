@@ -2,7 +2,7 @@
 logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
 
 #Config file
-sorce ./Auconfig.conf
+source ./Auconfig.conf
 
 #Core
 function getLogs()
@@ -31,7 +31,6 @@ do
 	getLogs "/var/log/kern.log" "Kern" "Analytics" "${Keys4Kern[@]}"
 	getLogs "/var/log/boot.log" "Boot" "Analytics" "${Keys4Boot[@]}"
 	logger -s -i -t $0 -p user.info "Collection ended" &>> /root/AutoAdmin/log/AutoAdmin.log
-
 
 	sleep 600
 done
