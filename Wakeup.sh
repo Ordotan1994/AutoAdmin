@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-logger -s -i -t $0 -p user.info "AutoAdmin in awake" &>> /root/AutoAdmin/log/AutoAdmin.log
+logger -s -i -t $0 -p user.info "AutoAdmin in awake" &>> /var/log/AutoAdmin/AutoAdmin.log
 
 #System Parameters
 Mail="orwallla@gmail.com"

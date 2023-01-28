@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
-logger -s -i -t $0 -p user.info "Starting.." &>> /root/AutoAdmin/log/AutoAdmin.log
+logger -s -i -t $0 -p user.info "Starting.." &>> /var/log/AutoAdmin/AutoAdmin.log
 
 #Config file
-source ./Auconfig.conf
+source /etc/AutoAdmin/config.conf
 
 #Core
 while true
@@ -14,7 +14,7 @@ awakeTime=$(($sysTime - $upTime))
 if [ $awakeTime -gt $uptimeInterval ]
 then
 	(echo "Subject: System_Uptime_Alert"; echo "The system is $(uptime -p)") | ssmtp $Mail
-	logger -s -i -t $0 -p user.info "Uptime exceeded 24 Hours" &>> /root/AutoAdmin/log/AutoAdmin.log
+	logger -s -i -t $0 -p user.info "Uptime exceeded 24 Hours" &>> /var/log/AutoAdmin/AutoAdmin.log
 	sleep 3600
 
 else
