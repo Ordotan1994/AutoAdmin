@@ -16,4 +16,4 @@ chown root /bin/AutoAdmin/*.sh
 chmod +x /bin/AutoAdmin/*.sh
 
 #Timing System
-echo "@reboot sleep 120 ; /root/AutoAdmin/AAinit" >> /var/spool/cron/crontabs/root
+echo "@reboot sleep 120 ; /bin/AutoAdmin/AAinit" >> /var/spool/cron/crontabs/root

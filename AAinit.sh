@@ -6,17 +6,14 @@ logger -s -i -t $0 -p user.info "Starting.." &>> /var/log/AutoAdmin/AutoAdmin.lo
 source /etc/AutoAdmin/config.conf
 
 #Necessary Directories
-mkdir -p /root/AutoAdmin
+mkdir -p /bin/AutoAdmin
 mkdir -p /mnt/backups
 mkdir -p /var/log/AutoAdmin
 mkdir -p /etc/AutoAdmin
 
 #Giving running permissions to the scripts
-chown root /root/AutoAdmin/*.sh
-chmod +x /root/AutoAdmin/*.sh
-
-#Timing System
-echo "@reboot sleep 120 ; /root/AutoAdmin/AAinit" >> /var/spool/cron/crontabs/root
+chown root /bin/AutoAdmin/*.sh
+chmod +x /bin/AutoAdmin/*.sh
 
 #Core
 if [ $Analytics -eq 1 ]
