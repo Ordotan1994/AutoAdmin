@@ -20,7 +20,7 @@ if [ $Wakeup -eq 1 ]
 then
         /bin/AutoAdmin/Wakeup.sh &
 else
-        logger -s -i -t $0 -p user.info "Analytics script is OFF" &>> /var/log/>
+	logger -s -i -t $0 -p user.info "Wakeup script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
 
 
