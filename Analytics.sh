@@ -8,12 +8,15 @@ source /etc/AutoAdmin/config.conf
 function getLogs()
 {
 	while read line
-	do 
+	do
 		for KEY in "${@:4}"
 		do
-			if echo "$line" | grep -q "$(date "+%b %d")" && echo "$line" | grep -iq $KEY && ! echo "$line" | grep -Fq "$line" /var/log/AutoAdmin/$3.log
+			if echo "$line" | grep -q "$(date "+%b %d")" && echo "$line" | grep -wiq $KEY
 			then
-				echo "$2 : $line" >> /var/log/AutoAdmin/$3.log
+				if ! grep -Fq "$line" /var/log/AutoAdmin/$3.log
+				then
+					echo "$2 : $line" >> /var/log/AutoAdmin/$3.log
+				fi
 			fi
 		done
 	done < $1
@@ -32,5 +35,6 @@ do
 	getLogs "/var/log/boot.log" "Boot" "Analytics" "${Keys4Boot[@]}"
 	logger -s -i -t $0 -p user.info "Collection ended" &>> /var/log/AutoAdmin/AutoAdmin.log
 
-	sleep 600
+
+	sleep 3600
 done
