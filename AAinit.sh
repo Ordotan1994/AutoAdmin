@@ -16,9 +16,17 @@ chown root /bin/AutoAdmin/*.sh
 chmod +x /bin/AutoAdmin/*.sh
 
 #Core
+if [ $Wakeup -eq 1 ]
+then
+        /bin/AutoAdmin/Wakeup.sh &
+else
+        logger -s -i -t $0 -p user.info "Analytics script is OFF" &>> /var/log/>
+fi
+
+
 if [ $Analytics -eq 1 ]
 then
-	./Analytics.sh &
+	/bin/AutoAdmin/Analytics.sh &
 else
 	logger -s -i -t $0 -p user.info "Analytics script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
@@ -26,7 +34,7 @@ fi
 
 if [ $Backup -eq 1 ]
 then
-        ./Backup.sh &
+        /bin/AutoAdmin/Backup.sh &
 else
         logger -s -i -t $0 -p user.info "Backup script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
@@ -34,7 +42,7 @@ fi
 
 if [ $Monitoring_resource -eq 1 ]
 then
-        ./Monitoring_resource.sh &
+        /bin/AutoAdmin/Monitoring_resource.sh &
 else
         logger -s -i -t $0 -p user.info "Monitoring_resource script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
@@ -42,7 +50,7 @@ fi
 
 if [ $Rotate -eq 1 ]
 then
-        ./Rotate.sh &
+        /bin/AutoAdmin/Rotate.sh &
 else
         logger -s -i -t $0 -p user.info "Rotate script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
@@ -50,7 +58,7 @@ fi
 
 if [ $Update -eq 1 ]
 then
-        ./Update_auto.sh &
+        /bin/AutoAdmin/Update_auto.sh &
 else
         logger -s -i -t $0 -p user.info "Update_auto script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
@@ -58,17 +66,11 @@ fi
 
 if [ $Uptime -eq 1 ]
 then
-        ./Uptime.sh &
+        /bin/AutoAdmin/Uptime.sh &
 else
         logger -s -i -t $0 -p user.info "Uptime script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
 fi
 
 
-if [ $Wakeup -eq 1 ]
-then
-        ./Wakeup.sh &
-else
-        logger -s -i -t $0 -p user.info "Analytics script is OFF" &>> /var/log/AutoAdmin/AutoAdmin.log
-fi
 
 
