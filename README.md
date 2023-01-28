@@ -32,10 +32,17 @@ TAR - Tar is a built-in tool on all the major Linux distros, you should have it 
 LOGGER - logger is a built-in tool on all the major Linux distros, you should have it installed.   
 
 # Installation
-The installtion file is called autoadmin.sh, and will install the software when running.  
+The installtion file is called autoadmin.sh, and will install the software when activated.  
 to install the software:  
 1. use git clone to download the reposetory   
 2. cd to the software folder  
 3. chmod +x autoadmin.sh  
 4. sudo ./autoadmin.sh
+
+# Uninstall
+The installtion file is called uninstall.sh, and will install the software when activated.  
+to uninstall the software:     
+1. cd to the software folder  
+2. chmod +x uninstall.sh  
+3. sudo ./uninstall.sh  
 
