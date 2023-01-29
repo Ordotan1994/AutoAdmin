@@ -1,6 +1,6 @@
 #Author: Ruben Barkow-Kuder <https://github.com/rubo77/rsync-homedir-excludes>
 # Version: 2019-11-30
-
+#All lines starting with a # are ignored by Backup, i.e. those directories will be backed up.
 
 
 .android
