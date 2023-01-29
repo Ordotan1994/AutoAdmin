@@ -7,8 +7,8 @@ mkdir -p /var/log/AutoAdmin
 mkdir -p /etc/AutoAdmin
 
 #Extracting the scripts and config files
-cp config.conf White4Bak.txt /etc/AutoAdmin
-cp AAinit.sh Analytics.sh Backup.sh Monitoring_resource.sh Rotate.sh Update_auto.sh Uptime.sh Wakeup.sh /bin/AutoAdmin
+cp config/* /etc/AutoAdmin
+cp scripts/* /bin/AutoAdmin
 
 #Giving running permissions to the scripts
 chown root /bin/AutoAdmin/*.sh
