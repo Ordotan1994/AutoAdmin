@@ -38,6 +38,7 @@ to install the software:
 2. cd to the software folder  
 3. chmod +x autoadmin.sh  
 4. sudo ./autoadmin.sh
+5. Reboot the machine
 
 # Uninstallation
 The installtion file is called uninstall.sh, and will install the software when activated.  
