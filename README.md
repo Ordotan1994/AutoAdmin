@@ -1,20 +1,19 @@
 # AutoAdmin
 
 # Context
-AutoAdmin is an automation suite written in pure bash, designed to automate sysadmin routine work for Debian distributions.
+AutoAdmin is an automation suite written in pure bash, designed to automate sysadmin routine work for Linux distributions.
 
 The program includes multiple utilities:
 
 1. Automating system backups - The software will backup any user-defined files\folders on any user-defined scheduled time while managing the old backups, with automatic transfer to a remote server capability.  
 
-2. Automating system core updates - The software will use the system default package manager and apply updates on a regular basis.  
+2. Automating system core updates - The software will use the system default package manager and apply updates on a user defined basis.  
 
 3. Monitoring system resources - Valuable system parameters will be sampled every 5 seconds against the user definition to a threshold, if the parameters are exceeding the threshold mail will be sent to the user regarding this violation.  
 
 4. Provide System Analytics - system analytics about crucial events will be gathered and sent on Real Time\scheduled bases, which will include: Errors, AUTH actions, SSH sessions, and any user defined keys.  
 
 5. Log handling - the software will produce logs about the running scrips and actions and will rotate the logs along with the analytics and security logs.  
-
 6. Uptime and Wakeup - the software will provide a Wakeup alert when the machine is turned in, and an uptime alert after running for more then 24 hours.  
 
 # Config
