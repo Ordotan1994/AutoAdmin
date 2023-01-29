@@ -21,7 +21,6 @@ function Dependencies()
 function Rotate()
 {
 
-	Mail=orwallla@gmail.com
 	sysTime=$(date "+%s") #corrent system time
 	logBirth=$(stat -c %W "/var/log/AutoAdmin/$1.log") # log creation time
 	rTime=$(($sysTime-$logBirth))

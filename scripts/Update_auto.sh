@@ -13,13 +13,13 @@ do
 #core
 	if [ $interval -gt $updateInterval ]
 	then
-		apt update && apt full-upgrade -y
+		$PKG update && $PKG upgrade -y
 		if [ $? -eq 0 ]
 		then
-			(echo -e "Subject: System_Update_Alert\n\n"; echo -e "The system was fully updated at $(date)") | ssmtp orwallla@gmail.com
+			(echo -e "Subject: System_Update_Alert\n\n"; echo -e "The system was fully updated at $(date)") | ssmtp $Mail
 			logger -s -i -t $0 -p user.info "The system was fully updated at $(date)" &>> /var/log/AutoAdmin/AutoAdmin.log
 		else
-			(echo -e "Subject: System_Update_Alert/n/n"; echo -e "The system was failed to update at $(date)") | ssmtp orwallla@gmail.com
+			(echo -e "Subject: System_Update_Alert/n/n"; echo -e "The system was failed to update at $(date)") | ssmtp $Mail
 			logger -s -i -t $0 -p user.info "The system was failed to update at $(date)" &>> /var/log/AutoAdmin/AutoAdmin.log
 		fi
 	fi
