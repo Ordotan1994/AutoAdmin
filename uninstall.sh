@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# Copyright (c) 2023 Or Dotan - https://github.com/Ordotan1994/AutoAdmin
+
 Checker=0
 #Necessary Directories
 rm -r /bin/AutoAdmin
