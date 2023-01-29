@@ -2,28 +2,28 @@
 
 Checker=0
 #Necessary Directories
-rm -rf /bin/AutoAdmin
+rm -r /bin/AutoAdmin
 if [ $? -eq 0 ]
 then
-	$Checker+=1
+	((Checker++))
 fi
 
-rm -rf /mnt/backups
+rm -r /mnt/backups
 if [ $? -eq 0 ]
 then
-        $Checker+=1
+        ((Checker++))
 fi
 
-rm -rf /var/log/AutoAdmin
+rm -r /var/log/AutoAdmin
 if [ $? -eq 0 ]
 then
-        $Checker+=1
+        ((Checker++))
 fi
 
-rm -rf /etc/AutoAdmin
+rm -r /etc/AutoAdmin
 if [ $? -eq 0 ]
 then
-        $Checker+=1
+        ((Checker++))
 fi
 
 #Timing System
@@ -40,3 +40,4 @@ then
 	echo "AutoAdmin was unistalled successfully"
 else
 	echo "Error was accured, please remove manualy the following directories: /etc/AutoAdmin, /var/log/AutoAdmin, /mnt/backups, /bin/AutoAdmin"
+fi
