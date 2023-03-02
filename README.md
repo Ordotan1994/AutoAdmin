@@ -7,7 +7,7 @@ The program includes multiple utilities:
 
 1. Automating system backups - The software will backup any user-defined files\folders on any user-defined scheduled time while managing the old backups, with automatic transfer to a remote server capability.  
 
-2. Automating system core updates - The software will use the system default package manager and apply updates on a user defined basis.  
+2. Automating system updates - The software will use the system default package manager and apply updates on a user defined basis.  
 
 3. Monitoring system resources - Valuable system parameters will be sampled every 5 seconds against the user definition to a threshold, if the parameters are exceeding the threshold mail will be sent to the user regarding this violation.  
 
