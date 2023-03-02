@@ -1,7 +1,7 @@
 # AutoAdmin
 
 # Context
-AutoAdmin is an automation suite written in pure bash, designed to automate sysadmin routine work for Linux distributions.
+AutoAdmin is an automation suite written in bash, designed to automate sysadmin routine work for Linux distributions.
 
 The program includes multiple utilities:
 
