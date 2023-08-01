@@ -33,7 +33,7 @@ LOGGER - logger is a built-in tool on all the major Linux distros, you should ha
 # Installation
 The installtion file is called autoadmin.sh, and will install the software when activated.  
 to install the software run the following commands:   
-1. use git clone to download the reposetory   
+1. use git clone to download the repository   
 2. cd to the software folder  
 3. $ chmod +x autoadmin.sh  
 4. $ sudo ./autoadmin.sh
